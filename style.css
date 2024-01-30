@@ -21,12 +21,14 @@ body {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-family: 'Netflix Bold';
 }
 
 p {
   font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -41,7 +43,27 @@ img {
   width: 100%;
   height: 95vh;
   position: relative;
-  background: url('images/netflix-background.png');
+  background: url('images/netflix-background.png') no-repeat center center;
+}
+
+.showcase::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12rem 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .header {
@@ -51,6 +73,8 @@ img {
   height: 75px;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .header img {
@@ -73,6 +97,27 @@ img {
   border-radius: 5px;
 }
 
+.input-button-div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 1.1rem 13rem 1.1rem 0.2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  border: 1px solid rgba(189,189,189,255);
+  margin-right: 0.5rem;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 1rem;
+  color: rgba(189,189,189,255);
+  padding-left: 1rem;
+}
+
 
 /* Buttons */
 
@@ -81,15 +126,39 @@ button {
   background-color: #e50914;
   border-color: transparent;
   font-family: 'Netflix Bold';
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  margin-left: 1.5rem;
 }
 
-.sign-in-btn {
-  margin-left: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
-  
-  
+button:hover {
+  background-color: #c11119;
+  transition: 0.3s;
 }
+
+.get-started-btn {
+  font-size: 1.5rem;
+  padding: 0.6rem 1.6rem;
+  margin-left: 0.2rem;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
 
 
 
