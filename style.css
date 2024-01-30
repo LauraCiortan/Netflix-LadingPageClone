@@ -207,6 +207,8 @@ input {
   height: 100%;
 }
 
+
+
 /* Mobile section */
 
 .mobile-section {
@@ -272,4 +274,38 @@ input {
   height: 86px;
 }
 
+/* Devices section */
 
+.devices-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: 4rem 10rem;
+  border-bottom: 8px solid #232323;
+}
+
+.devices-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.devices-mockup img {
+  width: 580px;
+  height: 420px;
+}
+
+.devices-mockup {
+  position: relative;
+  z-index: 2;
+}
+
+.devices-video video {
+  position: absolute;
+  top: 12%;
+  left: 14%;
+  z-index: -1;
+  width: 70%;
+  height: 45%;
+}
