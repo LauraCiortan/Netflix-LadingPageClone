@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
   color: #fff;
-  font-family: 'Netflix';
+  font-family: 'Netflix', Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
 }
 
 @font-face {
-  font-family: 'Netflix';
+  font-family: 'Netflix', Arial, Helvetica, sans-serif;
   src: url(fonts/NetflixSans_Regular.woff2);
 }
 
@@ -22,7 +22,7 @@ body {
 
 h1 {
   font-size: 3rem;
-  font-family: 'Netflix Bold';
+  font-family: 'Netflix Bold',Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -37,6 +37,10 @@ h3 {
 
 img {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .showcase {
@@ -121,11 +125,11 @@ input {
 
 /* Buttons */
 
-button {
+.btn {
   border-radius: 5px;
   background-color: #e50914;
   border-color: transparent;
-  font-family: 'Netflix Bold';
+  font-family: 'Netflix Bold', Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   cursor: pointer;
   text-align: center;
@@ -134,7 +138,7 @@ button {
   margin-left: 1.5rem;
 }
 
-button:hover {
+.btn:hover {
   background-color: #c11119;
   transition: 0.3s;
 }
