@@ -144,11 +144,12 @@ input {
   padding: 0.4rem 1rem;
   display: inline-block;
   margin-left: 1.5rem;
+  transition: 0.5s;
 }
 
 .btn:hover {
   background-color: #c11119;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .get-started-btn {
@@ -357,10 +358,12 @@ input {
   border: none;
   width: 75vw;
   padding: 0.5rem 2rem;
+  transition: 0.5s;
 }
 
 .question-btn:hover {
   background-color: #414141;
+  transition: 0.5s;
 }
 
 .answer {
