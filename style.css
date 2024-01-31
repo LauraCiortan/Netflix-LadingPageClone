@@ -359,6 +359,7 @@ input {
   width: 75vw;
   padding: 0.5rem 2rem;
   transition: 0.5s;
+  margin-top: 0.5rem;
 }
 
 .question-btn:hover {
@@ -378,4 +379,10 @@ input {
   display: block;
 }
 
+.faq-section-below {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
