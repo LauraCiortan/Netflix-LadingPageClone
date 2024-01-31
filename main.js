@@ -12,3 +12,31 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+// Change the language from the Language Selector
+function changeLanguage() {
+  let selectedLanguage = document.getElementById("languages-selector").value;
+
+  
+  // Load translations dynamically from JSON file
+  fetch(`translations/${selectedLanguage}.json`)
+    .then(response => response.json())
+    .then(data => updateContent(data));
+  
+}
+
+function updateContent(translations) {
+  // Iterate over elements with data-translation-key attribute
+  document.querySelectorAll('[data-translation-key]').forEach(element => {
+    let translationKey = element.getAttribute('data-translation-key');
+
+    if (translations.hasOwnProperty(translationKey)) {
+      element.textContent = translations[translationKey];
+    }
+  });
+}
+
+// Initial content load with default language (English)
+document.addEventListener("DOMContentLoaded", function() {
+  changeLanguage();
+});

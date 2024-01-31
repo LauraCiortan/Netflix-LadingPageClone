@@ -15,17 +15,16 @@
       </div>
         <div class="select-language-div">
           <!--<div class="languages-image-div"><img src="images/languages.png" alt="languages" class="languages-image"></div>-->
-          <select name="languages-selector" id="languages-selector" class="languages-selector">
-            <option value="English">English</option>
-            <option value="Swedish">Swedish</option>
-            <option value="Romanian">Romanian</option>
+          <select name="languages-selector" id="languages-selector" class="languages-selector" onchange="changeLanguage()">
+            <option value="en-US">English</option>
+            <option value="sv-SE">Swedish</option>
           </select>
-          <a href="#" class="sign-in-btn btn">Sign In</a>
+          <a href="#" class="sign-in-btn btn" data-translation-key="sign-in-btn">Sign In</a>
       </div>
     </nav>
 
     <div class="showcase-content">
-      <h1>Unlimited films, TV programmes and more</h1>
+      <h1 data-translation-key="">Unlimited films, TV programmes and more</h1>
       <p>Watch anywhere. Cancel at any time.</p>
       <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
 
