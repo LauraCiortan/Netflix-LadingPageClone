@@ -1,4 +1,4 @@
-# Netflix-LadingPageClone
+# Netflix-LandingPageClone
 
 This project is a clone of the Netflix landing page, created as a part of personal portfolio. The aim is to make it as close as possible to the original landing page.
 
