@@ -396,6 +396,10 @@ section {
   .select-language-div {
     margin-right: -100px;
   }
+
+  input {
+    padding: 1.1rem 10rem 1.1rem 0.2rem;
+  }
   
   .get-started-btn {
     margin-top: 0.5rem;
