@@ -172,9 +172,9 @@ input {
   -webkit-transform: rotate(-45deg);
 }
 
-/* TV section */
+/* Sections: TV, mobile, devices, kids */
 
-.tv-section {
+section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -182,6 +182,8 @@ input {
   padding: 4rem 10rem;
   border-bottom: 8px solid #232323;
 }
+
+/* TV section */
 
 .tv-section-content {
   display: flex;
@@ -208,18 +210,7 @@ input {
   height: 100%;
 }
 
-
-
 /* Mobile section */
-
-.mobile-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  padding: 5rem 10rem;
-  border-bottom: 8px solid #232323;
-}
 
 .mobile-mockup {
   position: relative;
@@ -277,15 +268,6 @@ input {
 
 /* Devices section */
 
-.devices-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  padding: 4rem 10rem;
-  border-bottom: 8px solid #232323;
-}
-
 .devices-section-content {
   display: flex;
   flex-direction: column;
@@ -312,15 +294,6 @@ input {
 }
 
 /* Kids Section */
-
-.kids-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  padding: 5rem 10rem;
-  border-bottom: 8px solid #232323;
-}
 
 .kids-section img {
   width: 580px;
