@@ -8,7 +8,8 @@ https://lauraciortan.github.io/Netflix-LadingPageClone/
 
 ## Features
 
-- Responsive design for various screen sizes -> this is the next step
+- Responsive design for mobile screen size
+- Ability to translate the page between en-US and sv-SE
 
 ## Technologies Used
 
