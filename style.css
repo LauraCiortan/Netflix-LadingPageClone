@@ -354,19 +354,19 @@ section {
 @media only screen and (max-width: 768px) {
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .showcase {
@@ -379,7 +379,12 @@ section {
 
   .showcase-content {
     text-align: center;
-    margin: 6rem 2rem;
+    margin: 3rem 2rem;
+  }
+
+  .header {
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
   
   .header img {
@@ -404,7 +409,6 @@ section {
   section {
     flex-direction: column;
     padding: 2rem;
-    /*text-align: center;*/
   }
 
   .section-content {
@@ -435,16 +439,32 @@ section {
   }
   
   .mobile-download {
-    width: 55vw;
-    margin-left: 12vw;
+    width: 60vw;
+    height: 18vw;
+    margin-left: 10vw;
+    padding: 0.1rem 0.8rem;
   }
   
   .mobile-download img {
-    width: 50px;
+    width: 25%;
     height: auto;
   }
 
-  .faq-section-below {
+  .devices-mockup img {
+    width: 100%;
+    height: auto;
+  }
+
+  .faq-section h2 {
+    text-align: center;
+  }
+
+  .faq-section h3 {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .faq-section-below h3{
     text-align: center;
   }
 }
